@@ -1,5 +1,4 @@
-require(["esri/WebScene","esri/views/SceneView","esri/Camera","esri/widgets/Legend","esri/widgets/LayerList","esri/widgets/Home","dojo/domReady!"], 
-function(WebScene, SceneView, Camera, Layerlist, Legend, Home) {
+require(["esri/WebScene","esri/views/SceneView","esri/Camera","esri/widgets/Legend","esri/widgets/LayerList","esri/widgets/Home","dojo/domReady!"],function(WebScene, SceneView, Camera, Layerlist, Legend, Home) {
     
   var scene = new WebScene({portalItem:{id:"0ef60b55ce3c46d88cdfaf186e5693e4" }});
       
