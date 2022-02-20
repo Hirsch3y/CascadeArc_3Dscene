@@ -2,7 +2,7 @@ require(["esri/WebScene","esri/views/SceneView","esri/Camera","esri/widgets/Lege
     
   var scene = new WebScene({portalItem:{id:"0ef60b55ce3c46d88cdfaf186e5693e4" }});
       
-  var camera = new Camera({position: [-122.1500,// lon42.8446, // lat16000// elevation in meters],tilt:30,heading: 360})
+  var camera = new Camera({position: [-122.1500, 42.8446, 16000],tilt:30,heading: 360})
   
   var view = new SceneView({container: "viewDiv",map: scene,camera: camera});
   
